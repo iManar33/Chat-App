@@ -1,5 +1,5 @@
 //
-//  LoginVC.swift
+//  CreatAccountVC.swift
 //  Smack-ChatApp3
 //
 //  Created by Manar Laith on 9/24/19.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class LoginVC: UIViewController {
+class CreatAccountVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -16,13 +16,11 @@ class LoginVC: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-    @IBAction func closeBtnPressed(_ sender: Any) {
+
+    @IBAction func closeBtnPresed (_ sender: Any) //on the sent event >> touch up inside >> i removed the loginVC connection with this btn
+    {
         dismiss(animated: true, completion: nil)
     }
-    
-    @IBAction func signUpBtnPressed(_ sender: Any) {
-        performSegue(withIdentifier: TO_CREAT_ACCOUNT, sender: nil)
-    }
-    
+   
 
 }

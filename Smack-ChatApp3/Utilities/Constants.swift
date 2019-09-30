@@ -11,3 +11,8 @@ import Foundation
 //Segues
 let TO_LOGIN = "toLogin"
 let TO_CREAT_ACCOUNT = "toCreatAccountVC"
+
+//user Defaults
+let TOKEN_KEY = "token"
+let LOGGED_IN_KEY = "loggedIn"
+let USER_EMAIL = "userEmail"

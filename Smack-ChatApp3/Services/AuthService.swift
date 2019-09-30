@@ -31,4 +31,7 @@ class AuthServices {
             defaults.set(newValue, forKey: USER_EMAIL)
         }
     }
+    func regesterUser(email : String , password : String , completion : @escaping CompletionHandler){
+        
+    }
 }

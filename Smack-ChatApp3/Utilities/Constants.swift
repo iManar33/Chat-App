@@ -8,6 +8,8 @@
 
 import Foundation
 
+typealias CompletionHandler = ( _ Success : Bool) -> ()
+
 //Segues
 let TO_LOGIN = "toLogin"
 let TO_CREAT_ACCOUNT = "toCreatAccountVC"
